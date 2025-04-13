@@ -103,6 +103,7 @@ body {
 .cases {
     display:flex;
     gap:2vw;
+    margin-bottom:4vh;
 }
 
 .case {
@@ -127,4 +128,66 @@ body {
     font-size:1.2vw;
     margin-top:5vh;
     font-weight:900;
+}
+
+.bloc {
+    background-color:#E5E7EB;
+    min-height:30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    font-weight: 900;
+    margin-left:27vw;
+    font-size:1.0vw;
+}
+
+.quote {
+    font-style:italic;
+    font-size:1.5vw;
+    max-width:35vw;
+}
+
+.actionBloc {
+    min-height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionBox {
+    background-color: #3882F6;
+    min-height:10vh;
+    min-width:70vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionAll {
+    display:flex;
+    flex-direction: column;
+    min-width:auto;
+}
+
+.call {
+    color:white;
+    font-size:1.2vw;
+    font-weight:900;
+}
+
+.message {
+    color:white;
+    font-size:1.0vw;
+}
+
+.signup2 {
+    color:white;
+    background-color:#3882F6;
+    border:1px dashed white;
+    max-height:2vh;
+    font-size:1.1vw;
 }
