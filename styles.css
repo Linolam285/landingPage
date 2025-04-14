@@ -187,7 +187,21 @@ body {
 .signup2 {
     color:white;
     background-color:#3882F6;
-    border:1px dashed white;
+    border:1px solid white;
     max-height:2vh;
-    font-size:1.1vw;
+    font-size:0.7vw;
+    margin-left:14vw;
+}
+
+.footer {
+    background-color: #1F2937;
+    min-height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    color:white;
+    font-size:1.2vw;
 }
